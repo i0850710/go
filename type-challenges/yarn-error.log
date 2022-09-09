@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\COSH\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D @type-challenges
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\_frank\resource\sdk\flutter\bin;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\dart-sdk;C:\_frank\app\Xshell 7\;C:\_frank\resource\sdk\Go\bin;C:\Program Files (x86)\dotnet\;C:\Users\COSH\AppData\Roaming\npm\node_modules\pnpm;C:\_frank\app\k6\;C:\_frank\resource\app\mongosh-1.5.4-win32-x64\bin;C:\_frank\app\PostgreSQL\14\bin;C:\Users\COSH\AppData\Local\pnpm;C:\_frank\resource\sdk\Python\Python310\Scripts\;C:\_frank\resource\sdk\Python\Python310\;C:\Users\COSH\AppData\Local\Microsoft\WindowsApps;C:\Users\COSH\AppData\Roaming\npm;C:\Users\COSH\go\bin;C:\Users\COSH\AppData\Local\JetBrains\Toolbox\scripts;C:\_frank\app\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@type-challenges: Request "https://registry.yarnpkg.com/@type-challenges" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\COSH\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66154:18)
+      at Request.self.callback (C:\Users\COSH\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (C:\Users\COSH\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (C:\Users\COSH\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "type-challenges",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
