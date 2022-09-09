@@ -4,4 +4,4 @@ import type { Equal, Expect, NotAny } from "@type-challenges/utils";
 type HelloWorld = any; // expected to be a string
 
 /* _____________ 13 - Hello World 测试用例 _____________ */
-type cases = [Expect<NotAny<HelloWorld>>, Expect<Equal<HelloWorld, string>>];
+type cases13 = [Expect<NotAny<HelloWorld>>, Expect<Equal<HelloWorld, string>>];
