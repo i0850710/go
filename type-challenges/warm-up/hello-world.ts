@@ -28,10 +28,10 @@
 
 /* _____________ 你的代码 _____________ */
 
-/*
-題目
+/* 題目
 type HelloWorld = any; // expected to be a string
 */
+
 type HelloWorld = string;
 
 /* _____________ 测试用例 _____________ */
