@@ -1,0 +1,15 @@
+{
+  "name": "ts-design-pattern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start-factory": "shx rm -rf dist && esbuild factory/index.ts --bundle --outfile=dist/factory.js --target=node16 && node dist/factory.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.7",
+    "prettier": "^2.7.1",
+    "shx": "^0.3.4",
+    "typescript": "^4.8.3"
+  }
+}
